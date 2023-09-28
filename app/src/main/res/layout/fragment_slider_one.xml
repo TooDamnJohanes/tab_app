@@ -7,9 +7,9 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/textViewSlider_Slider01"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Slider 01"
         android:layout_centerInParent="true"
         android:textSize="30dp"
         />

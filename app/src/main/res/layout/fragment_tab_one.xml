@@ -13,13 +13,13 @@
         android:id="@+id/intro_pager"
         tools:context=".ui.screens.intro.IntroViewPagerFragment"/>
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/into_tab_layout"
+
+
+    <me.relex.circleindicator.CircleIndicator3
+        android:id="@+id/circularIndicator_fragmentTabOne_tabChanges"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabBackground="@drawable/tab_pager_selector"
-        app:tabGravity="center"
-        app:tabIndicatorHeight="0dp"
-        android:layout_gravity="bottom"/>
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/design_default_color_primary"/>
 
 </FrameLayout>
